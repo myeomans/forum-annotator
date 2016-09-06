@@ -35,6 +35,7 @@ CREATE TABLE `threads` (
     comment_thread_id TEXT,
     mongoid TEXT NOT NULL,
     level INTEGER NOT NULL,
+    posttype TEXT NOT NULL,
     finished BOOLEAN NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
